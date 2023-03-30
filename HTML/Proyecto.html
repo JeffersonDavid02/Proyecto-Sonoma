@@ -3,9 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
     <meta name="robots" content="index,follow" />
-    <title>SONOMA</title>
+    <title>SONOMA | Un espacio para disfrutar en Pereira.</title>
     <meta
       name="description"
       content="Bienvenidos a un espacio diseñado para disfrutar de la buena comida, de las buenas compañías y de los buenos momentos."
@@ -17,22 +29,22 @@
     />
     <style>
       .bg-cover {
-        background-image: url("https://www.sonoma-market.co/wp-content/uploads/2021/03/SONOMA-Cover.jpeg");
+        background-image: url("../Img/bg.jpg");
       }
     </style>
   </head>
   <!-- Aquí empieza el contenido de la página -->
-  <body class="bg-cover">
+  <body class="bg-cover typo-oswald">
     <div id="pagewrap">
-      <div id="pagewrap" class="tf_box hfeed site">
-        <div id="headerwrap" class="tf_box tf_w">
+      <div id="pagewrap">
+        <div id="headerwrap">
           <header
             id="header"
-            class="tf_box pagewidth tf_clearfix p-7 mx-7"
+            class="p-7 mx-7"
             itemscope="itemscope"
             itemtype="https://schema.org/WPHeader"
           >
-            <div class="header-bar tf-box">
+            <div>
               <div id="site-logo">
                 <a href="" title="SONOMA">
                   <img
@@ -47,56 +59,52 @@
             </div>
           </header>
         </div>
-        <div class="row_inner col_aling_top tb_col_count_1 tf_box tf_rel">
-          <div class="module_column tb-column col-full tb_x57z27 first">
-            <div class="tb-column-inner tf_box tf_w">
-              <div class="module module-text tb_qep727 repeat">
-                <div class="tb_text_wrap">
-                  <h1 style="text-align: center">UN ESPACIO PARA DISFRUTAR.</h1>
-                </div>
-              </div>
-              <div class="module module-text tb_2xii371 repeat">
-                <div class="tb_text_wrap">
-                  <p style="text-align: center">
-                    Bienvenidos a un espacio diseñado para disfrutar de la buena
-                    comida, de las buenas compañías y de los buenos momentos.
-                  </p>
-                </div>
-              </div>
-              <div
-                class="module module-buttons tb_1pdo27 buttons-vertical solid xlarge circle"
-              >
-                <div class="module-buttons-item tf_inline_b">
-                  <a
-                    href="#menus"
-                    class="ui builder_button tb_default_color"
-                    rel="nofollow"
-                  >
-                    <span class="tf_inline_b tf_vmiddle"
-                      >Explorar los Menús</span
-                    >
-                  </a>
-                </div>
-              </div>
-              <div
-                class="module module-buttons tb_knu4149 buttons-vertical solid xlarge circle"
-              >
-                <div class="module-buttons-item tf_inline_b">
-                  <a
-                    href="http://www.instagram.com/sonoma.pereira"
-                    class="ui builder_button tb_default_color"
-                    target="_blank"
-                    rel="nofollow noopener"
-                  >
-                    <span class="tf_inline_b tf_vmiddle"
-                      >Síguenos en instagram</span
-                    >
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div>
+          <h1 class="text-center my-3.5 text-7xl text-white font-normal">
+            UN ESPACIO PARA DISFRUTAR.
+          </h1>
         </div>
+      </div>
+      <div class="module module-text grid font-Lato">
+        <p
+          class="text-center text-white font-normal text-lg place-self-center w-1/2 mt-3"
+        >
+          Bienvenidos a un espacio diseñado para disfrutar de la buena comida,
+          de las buenas compañías y de los buenos momentos.
+        </p>
+      </div>
+      <div class="module module-buttons buttons-vertical solid xlarge circle">
+        <div class="module-buttons-item grid mt-24">
+          <a
+            href="#menus"
+            class="text-center text-black font-normal text-lg place-self-center bg-white px-8 py-2 rounded-full"
+          >
+            <span>EXPLORAR LOS MENÚS</span>
+          </a>
+        </div>
+      </div>
+      <div class="module module-buttons buttons-vertical solid xlarge circle">
+        <div class="module-buttons-item grid mt-24">
+          <a
+            href="http://www.instagram.com/sonoma.pereira"
+            class="text-center text-black font-normal text-lg place-self-center bg-white px-8 py-2 rounded-full"
+            target="_blank"
+          >
+            <span>SÍGUENOS EN INSTRAGRAM</span>
+          </a>
+        </div>
+      </div>
+      <!-- module text -->
+      <div data-anchor="menus" class="module module-text grid font-Lato">
+        <p class="text-center text-xl text-white mt-48">
+          Reunimos los mejores restaurantes del Eje Cafetero en un mismo
+          espacio.
+        </p>
+        <p class="text-center text-white mt-2">
+          <strong
+          >¡Te invitamos a conocer nuestra oferta gastronómica!
+          </strong>
+        </p>
       </div>
     </div>
   </body>
