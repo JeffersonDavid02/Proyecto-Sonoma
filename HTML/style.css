@@ -15,15 +15,18 @@
 }
 
 .bg-white-transparent-50 {
-    background-color: hsla(0, 100%, 97%, 0.37)
+    background-color: hsla(0, 100%, 97%, 0.5)
 }
 
 .bg-white-transparent-75 {
-    background-color: hsla(0, 0%, 100%, 0.625)
+    background-color: hsla(0, 0%, 100%, 0.75)
 }
 
 .typo-oswald {
     font-family: 'Oswald', sans-serif;
+}
+.typo-Patrick {
+    font-family: 'Patrick Hand', cursive;
 }
 
 .transparent-30 {
@@ -36,7 +39,7 @@
 }
 
 .bg-white-transparent-40 {
-    background-color: hsl(0, 0%, 98%)
+    background-color: hsla(0, 0%, 98%, 0.649)
 }
 
 a:hover {
